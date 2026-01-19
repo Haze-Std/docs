@@ -24,7 +24,10 @@ export default Card = ({ title, href, children, external }) => {
         <p className="text-gray-600 text-[15px] leading-relaxed">
           {children}
         </p>
-        <p>Hello</p>
+
+        <div className="mt-4 inline-flex items-center text-sm font-semibold text-blue-600 opacity-0 group-hover:opacity-100 transform translate-x-0 group-hover:translate-x-2 transition-all duration-300">
+          Learn more →
+        </div>
       </div>
     </a>
   );
