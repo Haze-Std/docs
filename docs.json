@@ -3,12 +3,26 @@
   "theme": "aspen",
   "name": "Haze Studios",
   "colors": {
-    "primary": "#D97757",
-    "light": "#E3DACC",
-    "dark": "#D97757"
+    "primary": "#000000",
+    "light": "#E8E6DC",
+    "dark": "#000000"
   },
   "favicon": "/favicon.svg",
   "navigation": {
+    "global": {
+      "anchors": [
+        {
+          "anchor": "Documentation",
+          "icon": "book-open-cover",
+          "href": "https://mintlify.com/docs"
+        },
+        {
+          "anchor": "Blog",
+          "icon": "newspaper",
+          "href": "https://mintlify.com/blog"
+        }
+      ]
+    },
     "tabs": [
       {
         "tab": "Guides",
@@ -66,28 +80,47 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "Yolo",
+        "groups": [
+          {
+            "group": "Getting started",
+            "pages": [
+              "index-copied-1",
+              "quickstart-copied-1",
+              "development-copied-1"
+            ]
+          },
+          {
+            "group": "Customization",
+            "pages": [
+              "essentials/settings-copied-1",
+              "essentials/navigation-copied-1"
+            ]
+          },
+          {
+            "group": "Writing content",
+            "pages": [
+              "essentials/markdown-copied-1",
+              "essentials/code-copied-1",
+              "essentials/images-copied-1",
+              "essentials/reusable-snippets-copied-1"
+            ]
+          },
+          {
+            "group": "AI tools",
+            "pages": [
+              "ai-tools/cursor-copied-1",
+              "ai-tools/claude-code-copied-1",
+              "ai-tools/windsurf-copied-1"
+            ]
+          }
+        ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg",
-    "href": "htttps://www.google.com/"
-  },
+  "logo": "/logo/dark.svg",
   "navbar": {
     "links": [
       {
@@ -115,18 +148,30 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "linkedin": "https://linkedin.com/zachsimms97"
     }
   },
   "background": {
     "color": {
-      "light": "#F0EEE6",
-      "dark": "#141414"
-    }
+      "light": "#FAF9F5",
+      "dark": "#262625"
+    },
+    "decoration": "gradient"
   },
   "appearance": {
     "default": "light"
+  },
+  "search": {
+    "prompt": "Search or ask..."
+  },
+  "integrations": {
+    "telemetry": {
+      "enabled": false
+    }
+  },
+  "api": {
+    "playground": {
+      "display": "interactive"
+    }
   }
 }
