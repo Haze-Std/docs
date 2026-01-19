@@ -82,21 +82,48 @@
         ]
       },
       {
-        "tab": "Yolo",
+        "tab": "Web Basics",
         "groups": [
           {
-            "group": "React",
+            "group": "HTML",
             "pages": [
-              "yolo/react/web-api"
+              {
+                "group": "Forms",
+                "pages": [
+                  "web-basics/html/forms/input",
+                  "web-basics/html/forms/basics"
+                ]
+              }
             ]
           },
           {
-            "group": "Web",
-            "pages": [
-              "yolo/web/welcome"
-            ]
+            "group": "CSS",
+            "pages": []
+          },
+          {
+            "group": "JavaScript",
+            "pages": []
+          },
+          {
+            "group": "TypeScript",
+            "pages": []
           }
         ]
+      },
+      {
+        "tab": "React.js"
+      },
+      {
+        "tab": "Next.js"
+      },
+      {
+        "tab": "Artificial Intelligence"
+      },
+      {
+        "tab": "Database"
+      },
+      {
+        "tab": "CI/CD"
       }
     ]
   },
