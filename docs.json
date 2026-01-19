@@ -193,8 +193,7 @@
     "color": {
       "light": "#FAF9F5",
       "dark": "#262625"
-    },
-    "decoration": "grid"
+    }
   },
   "appearance": {
     "default": "light"
