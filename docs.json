@@ -53,8 +53,15 @@
         "tab": "Next.js",
         "products": [
           {
+            "product": "Another",
+            "pages": [
+              "next-js/another/nice"
+            ]
+          },
+          {
             "product": "Items",
             "pages": [
+              "next-js/items/another-page",
               "next-js/items/basics"
             ]
           }
