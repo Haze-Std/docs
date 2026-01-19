@@ -7,7 +7,7 @@
     "light": "#E8E6DC",
     "dark": "#000000"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/logo/dark.svg",
   "navigation": {
     "global": {
       "anchors": [
@@ -213,6 +213,6 @@
     }
   },
   "styling": {
-    "eyebrows": "breadcrumbs"
+    "eyebrows": "section"
   }
 }
