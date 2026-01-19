@@ -50,16 +50,30 @@
         "tab": "React.js"
       },
       {
-        "tab": "Next.js"
+        "tab": "Next.js",
+        "menu": [
+          {
+            "item": "Items",
+            "pages": [
+              "next-js/items/basics"
+            ]
+          }
+        ]
       },
       {
         "tab": "Artificial Intelligence"
       },
       {
-        "tab": "Database"
+        "tab": "Database",
+        "pages": [
+          "web-basics/soon-copied-1"
+        ]
       },
       {
-        "tab": "CI/CD"
+        "tab": "CI/CD",
+        "pages": [
+          "web-basics/soon-copied-2"
+        ]
       },
       {
         "tab": "Guides",
