@@ -200,13 +200,13 @@ export const Landing = () => {
     const Card = ({ title, href, links, children, external }) => {
         return (
             <div
-                className="group block p-6 bg-white border border-gray-200 rounded-xl hover:border-gray-300 transition-colors duration-200"
+                className="group block p-6 border border-gray-300 rounded-xl text-[#141412] dark:text-[#DEDEDE] hover:border-gray-300 transition-colors duration-200"
             >
                 <div className="flex flex-col justify-between h-full">
 
                     {/* Title with external link arrow */}
                     <div className="">
-                        <h3 className="text-lg font-semibold text-gray-900 mb-3 flex items-center gap-2">
+                        <h3 className="text-lg font-semibold mb-3 flex items-center gap-2">
                             {title}
                             {/* {external && (
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3D3D3A" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right-icon lucide-arrow-up-right"><path d="M7 7h10v10" /><path d="M7 17 17 7" /></svg>
@@ -214,7 +214,7 @@ export const Landing = () => {
                         </h3>
 
                         {/* Description */}
-                        <p className="text-gray-600 text-[15px] leading-relaxed">
+                        <p className=" text-[15px] leading-relaxed">
                             {children}
                         </p>
                     </div>
@@ -245,18 +245,18 @@ export const Landing = () => {
 
 
     return (
-        <main className="min-h-screen">
+        <main className="min-h-screen text-[#141412] dark:text-[#DEDEDE]">
             {/* Hero Section */}
             <div className="max-w-6xl mx-auto px-8 py-20">
                 {/* Main Heading */}
-                <div className="text-center mb-16">
-                    <h1 className="text-[56px] leading-tight font-normal text-black mb-5" style={{ fontFamily: 'Georgia, serif' }}>
+                {/* <div className="text-center mb-16">
+                    <h1 className="text-[56px] leading-tight font-normal mb-5" style={{ fontFamily: 'Georgia, serif' }}>
                         Zach Simms Docs
                     </h1>
-                    <p className="text-[17px] text-gray-700 max-w-2xl mx-auto leading-relaxed" style={{ fontFamily: 'Georgia, serif' }}>
+                    <p className="text-[17px] max-w-2xl mx-auto leading-relaxed" style={{ fontFamily: 'Georgia, serif' }}>
                         I don't like to jump around for docs and my notes, so I'm putting it all here
                     </p>
-                </div>
+                </div> */}
 
                 {/* Search Bar */}
                 {/* <SearchBar placeholder="Ask Claude about docs..." /> */}
@@ -279,7 +279,7 @@ export const Landing = () => {
 
                 {/* Resources Section */}
                 <section className="mb-20">
-                    <h2 className="text-[32px] font-normal text-black mb-8 text-center" style={{ fontFamily: 'Georgia, serif' }}>
+                    <h2 className="text-[32px] font-normal mb-8 text-center" style={{ fontFamily: 'Georgia, serif' }}>
                         Top Resources
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
