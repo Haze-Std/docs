@@ -25,6 +25,50 @@
     },
     "tabs": [
       {
+        "tab": "Web Basics",
+        "groups": [
+          {
+            "group": "HTML",
+            "pages": [
+              {
+                "group": "Forms",
+                "pages": [
+                  "web-basics/html/forms/input",
+                  "web-basics/html/forms/basics"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "CSS",
+            "pages": []
+          },
+          {
+            "group": "JavaScript",
+            "pages": []
+          },
+          {
+            "group": "TypeScript",
+            "pages": []
+          }
+        ]
+      },
+      {
+        "tab": "React.js"
+      },
+      {
+        "tab": "Next.js"
+      },
+      {
+        "tab": "Artificial Intelligence"
+      },
+      {
+        "tab": "Database"
+      },
+      {
+        "tab": "CI/CD"
+      },
+      {
         "tab": "Guides",
         "groups": [
           {
@@ -82,48 +126,35 @@
         ]
       },
       {
-        "tab": "Web Basics",
+        "tab": "Getting Started",
         "groups": [
           {
-            "group": "HTML",
+            "group": "Introduction",
             "pages": [
-              {
-                "group": "Forms",
-                "pages": [
-                  "web-basics/html/forms/input",
-                  "web-basics/html/forms/basics"
-                ]
-              }
+              "getting-started/introduction/welcome",
+              "getting-started/introduction/resources"
             ]
           },
           {
-            "group": "CSS",
-            "pages": []
-          },
-          {
-            "group": "JavaScript",
-            "pages": []
-          },
-          {
-            "group": "TypeScript",
-            "pages": []
+            "group": "Templates",
+            "pages": [
+              {
+                "group": "Vanilla Projects",
+                "pages": [
+                  "getting-started/templates/vanilla-projects/python",
+                  "getting-started/templates/javascript-and-type-script/vanilla-java-script"
+                ]
+              },
+              {
+                "group": "Web",
+                "pages": [
+                  "getting-started/templates/web/react-tailwind",
+                  "getting-started/templates/web/nextjs-clerk-convex"
+                ]
+              }
+            ]
           }
         ]
-      },
-      {
-        "tab": "React.js"
-      },
-      {
-        "tab": "Next.js"
-      },
-      {
-        "tab": "Artificial Intelligence"
-      },
-      {
-        "tab": "Database"
-      },
-      {
-        "tab": "CI/CD"
       }
     ]
   },
