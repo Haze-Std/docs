@@ -26,18 +26,11 @@
     "tabs": [
       {
         "tab": "Web Basics",
-        "groups": [
+        "pages": [
+          "web-basics/soon",
           {
             "group": "HTML",
-            "pages": [
-              {
-                "group": "Forms",
-                "pages": [
-                  "web-basics/html/forms/input",
-                  "web-basics/html/forms/basics"
-                ]
-              }
-            ]
+            "pages": []
           },
           {
             "group": "CSS",
