@@ -51,9 +51,9 @@
       },
       {
         "tab": "Next.js",
-        "menu": [
+        "products": [
           {
-            "item": "Items",
+            "product": "Items",
             "pages": [
               "next-js/items/basics"
             ]
