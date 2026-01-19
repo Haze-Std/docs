@@ -85,35 +85,15 @@
         "tab": "Yolo",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "React",
             "pages": [
-              "index-copied-1",
-              "quickstart-copied-1",
-              "development-copied-1"
+              "yolo/react/web-api"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Web",
             "pages": [
-              "essentials/settings-copied-1",
-              "essentials/navigation-copied-1"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown-copied-1",
-              "essentials/code-copied-1",
-              "essentials/images-copied-1",
-              "essentials/reusable-snippets-copied-1"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor-copied-1",
-              "ai-tools/claude-code-copied-1",
-              "ai-tools/windsurf-copied-1"
+              "yolo/web/welcome"
             ]
           }
         ]
@@ -173,5 +153,8 @@
     "playground": {
       "display": "interactive"
     }
+  },
+  "styling": {
+    "eyebrows": "breadcrumbs"
   }
 }
