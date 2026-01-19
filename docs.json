@@ -194,7 +194,7 @@
       "light": "#FAF9F5",
       "dark": "#262625"
     },
-    "decoration": "gradient"
+    "decoration": "grid"
   },
   "appearance": {
     "default": "light"
