@@ -3,9 +3,9 @@
   "theme": "aspen",
   "name": "Haze Studios",
   "colors": {
-    "primary": "#000000",
-    "light": "#E8E6DC",
-    "dark": "#000000"
+    "primary": "#d97757",
+    "light": "#e8a882",
+    "dark": "#b85a38"
   },
   "favicon": "/logo/dark.svg",
   "navigation": {
@@ -194,7 +194,7 @@
   "background": {
     "color": {
       "light": "#FAF9F5",
-      "dark": "#262625"
+      "dark": "#141413"
     }
   },
   "appearance": {
